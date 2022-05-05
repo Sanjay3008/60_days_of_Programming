@@ -1,0 +1,9 @@
+A = [1, 2, 3, 4, 5,10,12]
+
+temp = A[0]
+
+for i in range(0,len(A)-1,1):
+    A[i] = A[i+1]
+A[len(A)-1] = temp
+
+print(A)
